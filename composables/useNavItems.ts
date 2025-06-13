@@ -21,7 +21,7 @@ export const useNavItems = function () {
           to: "/php-setup",
         },
         {
-          label: "PHP CRUD operations.",
+          label: "PHP CRUD operations",
           icon: "i-lucide-smile",
           description: "Learn how to interact with databases using php.",
           to: "/php-crud",

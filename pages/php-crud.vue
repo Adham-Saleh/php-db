@@ -1,4 +1,12 @@
 <template lang="pug">
+    UAlert(
+      title="Prerequests"
+      icon="i-lucide-terminal"
+      class="mb-5"
+      variant="outline"
+    )
+      template(#description) 
+        p You must have some knowlage with db setup before going through this. #[NuxtLink(to="/php-setup" class="underline") PHP database setup]
     AppSection(title="PHP CRUD operations" :sections)
 </template>
 
