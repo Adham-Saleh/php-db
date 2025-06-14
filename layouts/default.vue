@@ -18,7 +18,7 @@ useSeoMeta({
   ogTitle: "Php web docs",
   ogDescription: "The best php docs for basmaga purposes",
   ogType: "Website",
-  ogImage: "/share.jpg",
+  ogImage: "https://php-bershama.netlify.app/share.jpg",
 });
 </script>
 
