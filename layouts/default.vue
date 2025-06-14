@@ -11,6 +11,15 @@
 <script setup lang="ts">
 const { items } = useNavItems();
 const { val } = useTree();
+
+useSeoMeta({
+  title: "Php web docs",
+  description: "The best php docs for basmaga purposes",
+  ogTitle: "Php web docs",
+  ogDescription: "The best php docs for basmaga purposes",
+  ogType: "Website",
+  ogImage: "/share.jpg",
+});
 </script>
 
 <style scoped></style>
